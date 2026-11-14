@@ -1,0 +1,45 @@
+/* Separate admin workspace styles; original style.css remains unchanged. */
+.admin-role-tag{display:block;color:#6d825d;font-size:9px;font-weight:800;letter-spacing:.08em;margin:0 0 8px 48px}
+.admin-head{align-items:center}
+.admin-management-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.admin-panel{min-width:0}
+.admin-panel-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+.admin-panel-title h3{margin:0}
+.admin-panel-title .sub{margin:5px 0 0}
+.admin-record-list{display:grid;gap:8px;margin:10px 0 18px}
+.admin-record{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--line);border-radius:10px;padding:11px;background:#fff}
+.admin-record-info{display:grid;gap:4px;min-width:0}
+.admin-record-info b{font-size:12px;color:var(--ink)}
+.admin-record-info small{font-size:10px;color:var(--muted);line-height:1.5;overflow-wrap:anywhere}
+.admin-small-btn{padding:7px 12px!important;white-space:nowrap}
+.admin-editor{border-top:1px solid var(--line);padding-top:16px;margin-top:15px;display:grid;gap:8px}
+.admin-editor h4{margin:0 0 5px;color:var(--ink);font-size:14px}
+.admin-editor label{font-size:10px;font-weight:700;color:var(--muted);margin-top:3px}
+.admin-editor input,.admin-editor select,.admin-editor textarea,.admin-feedback-controls select,.admin-feedback-controls textarea{width:100%;min-width:0;border:1px solid var(--line);border-radius:8px;padding:9px 10px;background:#fff;color:var(--ink);font:inherit;font-size:12px}
+.admin-editor textarea,.admin-feedback-controls textarea{resize:vertical}
+.admin-subtitle{font-size:11px;font-weight:800;color:var(--ink);margin-top:8px}
+.admin-threshold-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.admin-threshold{border:1px solid var(--line);border-radius:9px;padding:9px;display:grid;gap:6px;background:#fafbf7}
+.admin-threshold b{font-size:12px}
+.admin-threshold label{font-size:9px}
+.admin-threshold input{padding:7px;font-size:11px}
+.admin-fields-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.admin-fields-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.admin-fields-two>div,.admin-fields-three>div{min-width:0;display:grid;gap:6px}
+.admin-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:7px}
+.admin-actions button{font-size:11px}
+.admin-check{display:flex;align-items:center;gap:8px}
+.admin-check input{width:auto}
+.admin-empty{font-size:12px;color:var(--muted);padding:12px 0}
+.admin-feedback-list{display:grid;gap:12px}
+.admin-feedback-card{border:1px solid var(--line);border-radius:11px;padding:14px;background:#fff}
+.admin-feedback-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.admin-feedback-top>div{display:grid;gap:4px}
+.admin-feedback-top b{font-size:12px}
+.admin-feedback-top small{font-size:10px;color:var(--muted)}
+.admin-rating{color:#b7801d;font-size:12px;font-weight:800;white-space:nowrap}
+.admin-feedback-comment{font-size:12px;line-height:1.6;margin:12px 0;color:var(--ink);white-space:pre-wrap}
+.admin-feedback-controls{display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:9px;align-items:center}
+.admin-feedback-controls button{white-space:nowrap;padding:10px 13px;font-size:11px}
+@media(max-width:850px){.admin-management-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.admin-threshold-grid{grid-template-columns:1fr}.admin-fields-two,.admin-fields-three{grid-template-columns:1fr 1fr}.admin-feedback-controls{grid-template-columns:1fr}.admin-feedback-controls button{width:100%}.admin-panel-title{align-items:flex-start;flex-direction:column}}
