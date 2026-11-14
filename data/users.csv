@@ -1,0 +1,3 @@
+userId,name,role,email,passwordHash,phone,location,createdAt
+1,TerraGrow Admin,agronomist,admin@terragrow.com,$2a$12$hQ6Ubef44aHWH.5G1WKfr.b9u/Mqfxdj177OLDTs3MGOyanU.efra,,,2026-11-14T12:06:45.304Z
+2,saadfarhan,user,saadfarhan2802@gmail.com,$2a$10$LkhoMKjHPM7WlBPombxIEOdSM0/KyBcQOI5tbNteYm7uWf7OUVrxK,,,2026-11-14T12:18:41.970Z

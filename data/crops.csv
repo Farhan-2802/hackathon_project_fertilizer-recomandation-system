@@ -1,0 +1,7 @@
+cropId,cropName,typicalNPK,recommendedFertilizers,notes,createdAt
+1,Rice,"{""nitrogen"":""Medium"",""phosphorus"":""Medium"",""potassium"":""Medium""}","[""Urea"",""DAP"",""MOP"",""Compost""]",Typical profile; confirm with a soil test.,2026-11-14T00:00:00.000Z
+2,Maize,"{""nitrogen"":""Medium"",""phosphorus"":""Medium"",""potassium"":""Medium""}","[""Urea"",""DAP"",""MOP"",""Compost""]",Typical profile; confirm with a soil test.,2026-11-14T00:00:00.000Z
+3,Wheat,"{""nitrogen"":""Medium"",""phosphorus"":""Medium"",""potassium"":""Medium""}","[""Urea"",""DAP"",""MOP"",""Compost""]",Typical profile; confirm with a soil test.,2026-11-14T00:00:00.000Z
+4,Tomato,"{""nitrogen"":""Medium"",""phosphorus"":""Medium"",""potassium"":""Medium""}","[""Urea"",""DAP"",""MOP"",""Compost""]",Typical profile; confirm with a soil test.,2026-11-14T00:00:00.000Z
+5,Cotton,"{""nitrogen"":""Medium"",""phosphorus"":""Medium"",""potassium"":""Medium""}","[""Urea"",""DAP"",""MOP"",""Compost""]",Typical profile; confirm with a soil test.,2026-11-14T00:00:00.000Z
+6,Groundnut,"{""nitrogen"":""Low"",""phosphorus"":""Medium"",""potassium"":""Medium""}","[""DAP"",""MOP"",""Compost""]",Typical profile; confirm with a soil test.,2026-11-14T00:00:00.000Z

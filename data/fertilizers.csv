@@ -1,0 +1,5 @@
+fertilizerId,name,nutrientComposition,type,instructions,defaultDosageKgPerHa,applicationTiming,createdAt
+1,Urea,"{""N"":46,""P"":0,""K"":0}",Urea,Nitrogen source. Follow soil-test and crop guidance.,55,Split application as locally advised,2026-11-14T00:00:00.000Z
+2,DAP,"{""N"":18,""P"":46,""K"":0}",DAP,Nitrogen and phosphorus source. Confirm soil-test need.,50,Basal application when soil test indicates need,2026-11-14T00:00:00.000Z
+3,MOP,"{""N"":0,""P"":0,""K"":60}",MOP,Potassium source. Confirm crop and soil requirement.,40,Apply according to crop stage and soil-test advice,2026-11-14T00:00:00.000Z
+4,Compost,{},Organic,Use well-decomposed compost and local agronomic guidance.,1000,Before planting / as locally advised,2026-11-14T00:00:00.000Z

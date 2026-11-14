@@ -1,0 +1,5 @@
+ruleId,cropId,ruleName,conditionData,recommendations,isActive,updatedBy,createdAt,updatedAt
+1,,Low nitrogen,"{""nitrogen"": ""Low""}","[{""fertilizer"": ""Urea"", ""rateKgPerHa"": 55, ""timing"": ""Split application as locally advised""}]",1,,2026-11-14T00:00:00.000Z,2026-11-14T00:00:00.000Z
+2,,Low phosphorus,"{""phosphorus"": ""Low""}","[{""fertilizer"": ""DAP"", ""rateKgPerHa"": 50, ""timing"": ""Basal application only when soil test indicates need""}]",1,,2026-11-14T00:00:00.000Z,2026-11-14T00:00:00.000Z
+3,,Low potassium,"{""potassium"": ""Low""}","[{""fertilizer"": ""MOP"", ""rateKgPerHa"": 40, ""timing"": ""Apply according to crop stage and soil-test advice""}]",1,,2026-11-14T00:00:00.000Z,2026-11-14T00:00:00.000Z
+4,,Acidic soil review,"{""phBelow"": 5.5}","[{""fertilizer"": ""Expert review"", ""rateKgPerHa"": 0, ""timing"": ""Seek local agronomist advice before soil amendment""}]",1,,2026-11-14T00:00:00.000Z,2026-11-14T00:00:00.000Z
